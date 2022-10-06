@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_solutions_services",
+  "info": {
+    "displayName": "services",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "solutions.items"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

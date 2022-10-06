@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_why_choose_us_items",
+  "info": {
+    "displayName": "items",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "private": true
+    }
+  }
+}

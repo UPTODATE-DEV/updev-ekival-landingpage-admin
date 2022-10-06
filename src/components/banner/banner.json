@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_banner_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    }
+  }
+}

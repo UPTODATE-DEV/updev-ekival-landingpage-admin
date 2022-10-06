@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_why_choose_us_why_chooseuses",
+  "info": {
+    "displayName": "whyChooseUs",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "items",
+      "type": "component",
+      "repeatable": true,
+      "component": "why-choose-us.items"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    }
+  }
+}

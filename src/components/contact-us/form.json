@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_contact_us_forms",
+  "info": {
+    "displayName": "form",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    }
+  }
+}

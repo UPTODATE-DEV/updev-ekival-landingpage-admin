@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_achievement_pillars",
+  "info": {
+    "displayName": "pillars",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

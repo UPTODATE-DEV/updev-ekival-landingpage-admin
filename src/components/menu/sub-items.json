@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_menu_sub_items",
+  "info": {
+    "displayName": "subItems",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "_self",
+        "_parent",
+        "_top"
+      ],
+      "default": "_self"
+    }
+  }
+}

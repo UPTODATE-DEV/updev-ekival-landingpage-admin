@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_company_rs",
+  "info": {
+    "displayName": "rs",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}

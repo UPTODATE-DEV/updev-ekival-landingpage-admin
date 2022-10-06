@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_about_us_mission_visons",
+  "info": {
+    "displayName": "Mission - Vison",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "items": {
+      "displayName": "items",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.items"
+    }
+  }
+}

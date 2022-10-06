@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_solutions_items",
+  "info": {
+    "displayName": "items",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

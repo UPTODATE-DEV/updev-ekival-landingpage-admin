@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_global_ctas",
+  "info": {
+    "displayName": "cta",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "_self",
+        "_parent",
+        "_top"
+      ],
+      "default": "_self"
+    }
+  }
+}

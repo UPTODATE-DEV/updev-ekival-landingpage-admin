@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_rs",
+  "info": {
+    "displayName": "RS"
+  },
+  "options": {},
+  "attributes": {
+    "instagram": {
+      "type": "string"
+    },
+    "linkedIn": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    }
+  }
+}

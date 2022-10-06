@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_donate_items",
+  "info": {
+    "displayName": "items",
+    "icon": "arrow-alt-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "integer"
+    }
+  }
+}

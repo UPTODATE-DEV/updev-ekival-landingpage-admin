@@ -1,0 +1,92 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "value": {
+      "displayName": "value",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.value",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "aboutUs": {
+      "displayName": "aboutUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.about-us",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "achievement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "achievement.achievement",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "whyChooseUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "why-choose-us.why-choose-us",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.partners",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "blog": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.home-blog",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

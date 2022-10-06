@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_about_us_aboutuses",
+  "info": {
+    "displayName": "aboutUs",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "goals": {
+      "displayName": "goals",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.goals"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    },
+    "activities": {
+      "displayName": "activities",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.activities"
+    }
+  }
+}

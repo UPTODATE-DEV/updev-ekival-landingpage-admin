@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_menu_items",
+  "info": {
+    "displayName": "items",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "_self",
+        "_parent",
+        "_top"
+      ],
+      "default": "_self"
+    },
+    "subItems": {
+      "displayName": "subItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.sub-items"
+    }
+  }
+}

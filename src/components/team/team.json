@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_team_teams",
+  "info": {
+    "displayName": "team",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "members": {
+      "displayName": "members",
+      "type": "component",
+      "repeatable": true,
+      "component": "team.members"
+    }
+  }
+}

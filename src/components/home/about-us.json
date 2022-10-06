@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_home_aboutuses",
+  "info": {
+    "displayName": "aboutUs",
+    "icon": "angle-double-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

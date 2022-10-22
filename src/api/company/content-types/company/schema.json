@@ -105,6 +105,29 @@
         }
       },
       "component": "global.rs"
+    },
+    "logoDark": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "liensExternes": {
+      "displayName": "liensExternes",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "company.liens-externes"
     }
   }
 }

@@ -2,7 +2,8 @@
   "collectionName": "components_company_rs",
   "info": {
     "displayName": "rs",
-    "icon": "adjust"
+    "icon": "adjust",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,9 +14,6 @@
       "type": "string"
     },
     "linkedin": {
-      "type": "string"
-    },
-    "instagram": {
       "type": "string"
     }
   }

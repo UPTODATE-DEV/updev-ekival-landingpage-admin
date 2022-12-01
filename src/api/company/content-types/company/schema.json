@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -25,7 +25,7 @@
       ],
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -38,7 +38,7 @@
       ],
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -53,7 +53,7 @@
     "email": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "string"
@@ -61,7 +61,7 @@
     "phone": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "string"
@@ -91,35 +91,33 @@
       ],
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
-    "RS": {
-      "displayName": "RS",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "global.rs"
-    },
     "logoDark": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       }
     },
+    "GA_MEASUREMENT_ID": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "default": "0000000000"
+    },
     "liensExternes": {
-      "displayName": "liensExternes",
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -128,6 +126,16 @@
         }
       },
       "component": "company.liens-externes"
+    },
+    "RS": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "company.rs"
     }
   }
 }

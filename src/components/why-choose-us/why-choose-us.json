@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "subtitle": {
+    "subTitle": {
       "type": "string"
     },
     "title": {
@@ -23,11 +23,12 @@
       "component": "why-choose-us.items"
     },
     "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "button": {
       "type": "component",

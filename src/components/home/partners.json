@@ -2,7 +2,8 @@
   "collectionName": "components_home_partners",
   "info": {
     "displayName": "partners",
-    "icon": "arrow-alt-circle-left"
+    "icon": "arrow-alt-circle-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,11 +14,15 @@
       "type": "text"
     },
     "medias": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "subTitle": {
+      "type": "string"
     }
   }
 }

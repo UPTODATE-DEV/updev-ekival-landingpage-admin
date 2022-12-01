@@ -16,17 +16,6 @@
     }
   },
   "attributes": {
-    "missionVision": {
-      "displayName": "Mission - Vison",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "about-us.mission-vison"
-    },
     "aboutUs": {
       "type": "component",
       "repeatable": false,
@@ -56,6 +45,16 @@
         }
       },
       "component": "global.header"
+    },
+    "missionVision": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.value"
     }
   }
 }

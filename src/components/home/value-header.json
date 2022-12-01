@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_value_headers",
+  "info": {
+    "displayName": "valueHeader",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

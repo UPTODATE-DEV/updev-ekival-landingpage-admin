@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_solutions_values",
+  "info": {
+    "displayName": "value",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.value"
+    }
+  }
+}

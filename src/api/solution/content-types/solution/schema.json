@@ -52,6 +52,17 @@
         }
       },
       "component": "solutions.services"
+    },
+    "values": {
+      "displayName": "value",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "solutions.value"
     }
   }
 }

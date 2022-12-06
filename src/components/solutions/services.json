@@ -13,20 +13,13 @@
     "description": {
       "type": "text"
     },
-    "items": {
-      "type": "component",
-      "repeatable": true,
-      "component": "solutions.items"
-    },
-    "subTitle": {
-      "type": "string"
-    },
     "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

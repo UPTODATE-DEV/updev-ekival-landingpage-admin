@@ -9,8 +9,14 @@
     "title": {
       "type": "string"
     },
-    "caption": {
-      "type": "string"
+    "home": {
+      "type": "string",
+      "default": "Home",
+      "required": false
+    },
+    "current": {
+      "type": "string",
+      "default": "Current"
     }
   }
 }

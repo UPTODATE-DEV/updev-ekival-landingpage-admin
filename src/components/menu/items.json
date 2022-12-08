@@ -22,12 +22,6 @@
         "_top"
       ],
       "default": "_self"
-    },
-    "subItems": {
-      "displayName": "subItems",
-      "type": "component",
-      "repeatable": true,
-      "component": "menu.sub-items"
     }
   }
 }

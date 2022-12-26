@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_technologies_aboutuses",
+  "info": {
+    "displayName": "aboutUs",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta",
+      "required": true,
+      "max": 2,
+      "min": 2
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_technologies_technologies",
+  "info": {
+    "displayName": "technologies",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "achievement.items"
+    }
+  }
+}

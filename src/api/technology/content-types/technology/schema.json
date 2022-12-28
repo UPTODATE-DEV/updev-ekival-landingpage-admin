@@ -38,6 +38,7 @@
       "component": "technologies.about-us"
     },
     "technologies": {
+      "displayName": "technologies",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -45,7 +46,7 @@
           "localized": true
         }
       },
-      "component": "home.partners"
+      "component": "technologies.technologies"
     }
   }
 }

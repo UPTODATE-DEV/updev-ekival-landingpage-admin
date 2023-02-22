@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "subTitle": {
+    "color": {
       "type": "string"
     },
     "title": {
@@ -15,12 +15,6 @@
     },
     "description": {
       "type": "richtext"
-    },
-    "items": {
-      "displayName": "items",
-      "type": "component",
-      "repeatable": true,
-      "component": "why-choose-us.items"
     },
     "media": {
       "type": "media",

@@ -21,7 +21,7 @@
         "images"
       ]
     },
-    "subTitle": {
+    "color": {
       "type": "string"
     }
   }

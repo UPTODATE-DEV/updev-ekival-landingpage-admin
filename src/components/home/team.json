@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_teams",
+  "info": {
+    "displayName": "Team",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "items",
+      "type": "component",
+      "repeatable": true,
+      "component": "team.items"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

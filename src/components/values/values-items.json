@@ -1,9 +1,7 @@
 {
-  "collectionName": "components_home_home_blogs",
+  "collectionName": "components_values_values_items",
   "info": {
-    "displayName": "Home Blog",
-    "icon": "allergies",
-    "description": ""
+    "displayName": "valuesItems"
   },
   "options": {},
   "attributes": {
@@ -17,9 +15,6 @@
       "type": "component",
       "repeatable": false,
       "component": "global.cta"
-    },
-    "subTitle": {
-      "type": "string"
     }
   }
 }

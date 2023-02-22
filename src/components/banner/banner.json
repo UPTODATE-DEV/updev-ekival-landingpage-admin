@@ -26,7 +26,12 @@
       "repeatable": false,
       "component": "global.cta"
     },
-    "subTitle": {
+    "video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    },
+    "color": {
       "type": "string"
     }
   }

@@ -26,17 +26,6 @@
         }
       }
     },
-    "value": {
-      "displayName": "value",
-      "type": "component",
-      "repeatable": true,
-      "component": "home.value",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "aboutUs": {
       "displayName": "aboutUs",
       "type": "component",
@@ -48,7 +37,7 @@
         }
       }
     },
-    "achievement": {
+    "features": {
       "type": "component",
       "repeatable": false,
       "component": "achievement.achievement",
@@ -78,18 +67,7 @@
         }
       }
     },
-    "blog": {
-      "type": "component",
-      "repeatable": false,
-      "component": "home.home-blog",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "valueHeader": {
-      "displayName": "valueHeader",
+    "values": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -97,9 +75,32 @@
           "localized": true
         }
       },
-      "component": "home.value-header"
+      "component": "home.value"
     },
-    "achievementHeader": {
+    "valuesItems": {
+      "displayName": "valuesItems",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "values.values-items"
+    },
+    "timeline": {
+      "displayName": "Timeline",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.timeline"
+    },
+    "team": {
+      "displayName": "Team",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -107,7 +108,60 @@
           "localized": true
         }
       },
-      "component": "home.value-header"
+      "component": "home.team"
+    },
+    "company": {
+      "displayName": "footer",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.footer"
+    },
+    "footerLinks1": {
+      "displayName": "link1",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "footer.link1"
+    },
+    "footerLinks2": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "footer.link1"
+    },
+    "footerLinks3": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "footer.link1"
+    },
+    "RS": {
+      "displayName": "RS",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "footer.rs"
     }
   }
 }

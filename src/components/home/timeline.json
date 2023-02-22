@@ -1,19 +1,22 @@
 {
-  "collectionName": "components_solutions_values",
+  "collectionName": "components_home_timelines",
   "info": {
-    "displayName": "value",
+    "displayName": "Timeline",
     "icon": "align-left"
   },
   "options": {},
   "attributes": {
-    "subTitle": {
+    "date": {
       "type": "string"
     },
     "title": {
       "type": "string"
     },
+    "subTitle": {
+      "type": "string"
+    },
     "description": {
-      "type": "richtext"
+      "type": "text"
     }
   }
 }
